@@ -1,0 +1,24 @@
+Cross Validation of Digit Recognizer with SVM:
+`````````````````````````````````````````````
+Digit 2 vs 1: 82.0 % success!!!
+Digit 3 vs 1: 93.5 % success!!!
+Digit 4 vs 1: 99.5 % success!!!
+Digit 5 vs 1: 89.5 % success!!!
+Digit 6 vs 1: 99.0 % success!!!
+Digit 7 vs 1: 91.5 % success!!!
+Digit 8 vs 1: 85.5 % success!!!
+
+Cross Validation of Accelerometer Biometric with SVM:
+`````````````````````````````````````````````````````
+44.6770 	- poly 		- SVM
+33.75 	- rbf			- SVM
+18.75		- linear		- SVM
+
+Cross Validation of Accelerometer Biometric with Random Forest:
+```````````````````````````````````````````````````````````````
+			category 	no_estimators
+43.798	- 	'GINI', 		10 			- RF
+44.47 	- 	'entropy', 	10 			- RF
+47.235	-	'entropy', 	20			- RF
+
+
