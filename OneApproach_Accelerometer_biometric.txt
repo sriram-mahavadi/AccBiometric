@@ -1,0 +1,22 @@
+Accelormeter Biometric:
+`````````````````````````
+
+1. Feature Space
+	{ T, X, Y, Z, Device }
+
+2. Trasformation
+	Sequence => Record
+		X					Y
+	{VarX, VarY, VarZ} => {Device}
+
+3. Train => 
+	Define range <i, j> for each device and randomly sample 100 continuous samples from this range
+	1 Sequence => 1 Record
+	Variance -> 
+	1037*10
+
+4. Test =>
+	Random 100 <i, j>
+	repeat
+	classify -> y
+	
